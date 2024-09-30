@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "9284000000006122",
+      "name": "Number-game",
+      "domain": {
+        "id": "50021905429",
+        "name": "number-game-60031964448.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60031964448",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

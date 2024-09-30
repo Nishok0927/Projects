@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
+  color: #333; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container Styles */
+#one {
+  background-color: rgb(30, 162, 172); 
+  text-align: center;
+  background-position: center;
+  width: 50%;
+  max-width: 600px; 
+  padding: 40px 20px; 
+  margin: 20px auto; 
+  padding-left: 35px;
+  border-radius: 10px;
+  box-shadow:white;
+}
+
+/* Button Styles */
+button {
+  background-color: #ff4136;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /* Combined transitions */
+}
+
+button:hover {
+  transform: scale(1); 
+  box-shadow: none;
+  font-weight: 700;
+}
+
+/* Input Styles */
+input[type="number"] {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-bottom: 20px;
+  box-shadow: inset 0px 2px 4px; 
+}
+#one.h2{
+  font: size 20px;
+  font-family:'Times New Roman', Times, serif"
+
+}
+#one.h1{
+  font:bold;
+  font-size:60px;
+}
+  
+
+  .header {
+    font-size: 40px; 
+  }
+
+  button,
+  input[type="number"] {
+    font-size: 16px; 
+  }
+
